@@ -1,0 +1,16 @@
+{
+  "name": "@tdotcode/root",
+  "private": true,
+  "devDependencies": {
+    "craco": "^0.0.3",
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna exec --scope @tdotcode/app -- yarn start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
